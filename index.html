@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <title>Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="profile.css">
+
+    <body class="content" style="max-width:1300px">
+
+        <!-- First Grid: Logo & About -->
+        <div class="row">
+            <div class="half one container center" style="height:700px">
+                <div class="padding-64">
+                     <h1>Micah Maness</h1>
+                </div>
+                <div class="padding-64">
+                     <a href="#" class="button one block hover-blue-grey padding-16">Home</a>
+                     <a href="#work" class="button one block hover-teal padding-16">Skills</a>
+                     <a href="#work" class="button one block hover-dark-grey padding-16">Resume</a>
+                     <a href="#contact" class="button one block hover-brown padding-16">Contact</a>
+                </div>
+            </div>
+            <div class="half two container" style="height:700px">
+                <div class="padding-64 center">
+                     <h1>About Me</h1>
+                    <img src="face.png" class="margin circle" alt="Person" style="width:50%">
+                    <div class="left-align padding-large">
+                        <p>I am a Computer Science and Mathematics major at Indiana Wesleyan University.</p>
+                        <!-- <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Grid: Work & Resume -->
+        <div class="row">
+            <div class="half three center" style="min-height:800px" id="work">
+                <div class="padding-64">
+                     <h2>Skills</h2>
+                    <p>Some of my known languages and technical skills.</p>
+                </div>
+                <div class="row">
+                    <div class="half">
+                        <img src="html.svg" style="width:128px;height:128px;">
+                    </div>
+                    <div class="half">
+                        <img src="css.svg" style="width:128px;height:128px;">
+                    </div>
+                </div>
+                <div class="row hide-small">
+                    <div class="half">
+                        <img src="javascript.svg" style="width:128px;height:128px;">
+                    </div>
+                    <div class="half">
+                        <img src="jquery.svg" style="width:128px;height:128px;">
+                    </div>
+                </div>
+                <div class="row hide-small">
+                    <div class="half">
+                        <img src="cpp.svg" style="width:128px;height:128px;">
+                    </div>
+                    <div class="half">
+                        <img src="ruby.svg" style="width:128px;height:128px;">
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="half four container" style="min-height:800px">
+                <div class="padding-64 center">
+                     <h2>Experience</h2>
+                    <p>From My Resume</p>
+                    <div class="container responsive">
+                        <table class="table">
+                            <tr>
+                                <th>Year</th>
+                                <th>Title</th>
+                                <th>Where</th>
+                            </tr>
+                            <tr class="white">
+                                <td>2015-2019</td>
+                                <td>Bachelors in Mathematics and Computer Science</td>
+                                <td>Indian Wesleyan University</td>
+                            </tr>
+                            <tr>
+                                <td>2017</td>
+                                <td>Bizstream Academy</td>
+                                <td>Allendale, MI</td>
+                            </tr>
+                            <tr class="white">
+                                <td>20XX</td>
+                                <td>------------</td>
+                                <td>-----------</td>
+                            </tr>
+                            <tr>
+                                <td>20XX</td>
+                                <td>------</td>
+                                <td>------</td>
+                            </tr>
+                            <tr class="white">
+                                <td><a class="resume" href="Micah-Maness-Resume.pdf" target="_blank">Resume</a></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Grid: IWU & Contact -->
+        <div class="row" id="contact">
+            <div class="half five container center" style="height:700px">
+                <div class="padding-64">
+                     <h1>IWU</h1>
+                </div>
+                <div class="padding-64">
+                    <img class="logo" src="logo.jpg">
+                    <p>Indiana Wesleyan University</p>
+                    <p>4201 S. Washington Street, Marion, IN 46953</p>
+                </div>
+            </div>
+            <div class="half six container" style="height:700px">
+                <div class="padding-64 padding-large">
+                     <h1>Contact</h1>
+                    <p class="opacity">GET IN TOUCH</p>
+                    <form class="container card-2 padding-32 white" action="https://formspree.io/manessmic@gmail.com" method="POST" target="_blank">
+                        <div class="section">
+                            <label>Name</label>
+                            <input class="input" style="width:100%;" type="text" required name="Name">
+                        </div>
+                        <div class="section">
+                            <label>Email</label>
+                            <input class="input" style="width:100%;" type="text" required name="Email">
+                        </div>
+                        <div class="section">
+                            <label>Message</label>
+                            <input class="input" style="width:100%;" type="text" required name="Message">
+                        </div>
+                        <button type="submit" class="button six right">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container one padding-16">
+            <p>Micah Maness</p>
+        </footer>
+
+    </body>
+
+</html>
